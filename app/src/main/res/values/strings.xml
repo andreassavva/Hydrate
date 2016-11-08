@@ -1,0 +1,50 @@
+<resources>
+    <string name="app_name">Hydrate</string>
+    <string name="title_activity_main">Hydrate</string>
+    <string-array name="person_activity">
+        <item>rarely</item>
+        <item>slightly</item>
+        <item>moderately</item>
+        <item>very</item>
+        <item>extremely</item>
+    </string-array>
+    <string-array name="weight_metrics">
+        <item>kg</item>
+        <item>lbs</item>
+    </string-array>
+    <string-array name="volume_metrics">
+        <item>ml</item>
+        <item>oz</item>
+    </string-array>
+
+    <string-array name="cup_sizes_ml">
+        <item>150 ml</item>
+        <item>250 ml</item>
+        <item>350 ml</item>
+        <item>500 ml</item>
+        <item>650 ml</item>
+        <item>750 ml</item>
+        <item>1000 ml</item>
+    </string-array>
+
+    <string-array name="cup_sizes_oz">
+        <item>5 oz</item>
+        <item>9 oz</item>
+        <item>12 oz</item>
+        <item>17 oz</item>
+        <item>22 oz</item>
+        <item>26 oz</item>
+        <item>34 oz</item>
+    </string-array>
+    <!-- TODO: Remove or change this placeholder text -->
+    <string name="hello_blank_fragment">Hello blank fragment</string>
+    <string name="cancel">Cancel</string>
+    <string name="ok">OK</string>
+    <string name="new_daily_water_intake">New daily water intake</string>
+    <string name="title_activity_main2">Main2Activity</string>
+
+    <string name="navigation_drawer_open">Open navigation drawer</string>
+    <string name="navigation_drawer_close">Close navigation drawer</string>
+
+    <string name="action_settings">Settings</string>
+</resources>

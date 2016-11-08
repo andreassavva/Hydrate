@@ -1,0 +1,195 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:id="@+id/welcome_fragment"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="#c0b75c">
+
+    <View
+        android:layout_width="match_parent"
+        android:layout_height="48dp"
+        android:background="@android:color/transparent"
+        android:layout_alignParentBottom="true"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentStart="true"
+        android:id="@+id/view2" />
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:textAppearance="?android:attr/textAppearanceLarge"
+        android:id="@+id/textView7"
+        android:layout_marginTop="55dp"
+        android:text="When should we remind you?"
+        android:layout_alignParentTop="true"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentStart="true"
+        android:paddingLeft="32dp"
+        android:paddingRight="32dp" />
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:textAppearance="?android:attr/textAppearanceMedium"
+        android:text="On weekdays, I want the reminders to"
+        android:id="@+id/textView8"
+        android:layout_marginTop="34dp"
+        android:textColor="#FFFFFF"
+        android:layout_below="@+id/textView7"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentStart="true"
+        android:paddingLeft="32dp"
+        android:paddingRight="32dp" />
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textAppearance="?android:attr/textAppearanceMedium"
+        android:text="On weekends, I want the reminders to"
+        android:id="@+id/textView13"
+        android:textColor="#FFFFFF"
+        android:layout_below="@+id/linearLayout6"
+        android:layout_marginTop="34dp"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentStart="true"
+        android:layout_alignParentRight="true"
+        android:layout_alignParentEnd="true"
+        android:paddingLeft="32dp"
+        android:paddingRight="32dp" />
+
+    <LinearLayout
+        android:orientation="horizontal"
+        android:layout_width="match_parent"
+        android:layout_height="48dp"
+        android:id="@+id/linearLayout5"
+        android:paddingLeft="32dp"
+        android:paddingStart="32dp"
+        android:layout_below="@+id/textView8"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentStart="true">
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="fill_parent"
+            android:textAppearance="?android:attr/textAppearanceMedium"
+            android:text="start at"
+            android:id="@+id/textView9"
+            android:textColor="#FFFFFF"
+            android:layout_marginTop="2dp"
+            android:gravity="center_vertical" />
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="fill_parent"
+            android:textAppearance="?android:attr/textAppearanceMedium"
+            android:id="@+id/wdStartTextView"
+            android:layout_marginStart="6dp"
+            style="@style/Widget.AppCompat.Spinner.Underlined"
+            android:textColor="#FFFFFF"
+            android:layout_marginLeft="6dp"
+            android:text="08:00" />
+
+    </LinearLayout>
+
+    <LinearLayout
+        android:orientation="horizontal"
+        android:layout_width="match_parent"
+        android:layout_height="48dp"
+        android:id="@+id/linearLayout6"
+        android:paddingLeft="32dp"
+        android:paddingStart="32dp"
+        android:layout_below="@+id/linearLayout5"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentStart="true">
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="fill_parent"
+            android:textAppearance="?android:attr/textAppearanceMedium"
+            android:text="and finish at"
+            android:id="@+id/textView11"
+            android:textColor="#FFFFFF"
+            android:layout_marginTop="2dp"
+            android:gravity="center_vertical" />
+
+        <TextView
+            style="@style/Widget.AppCompat.Spinner.Underlined"
+            android:layout_width="wrap_content"
+            android:layout_height="fill_parent"
+            android:textAppearance="?android:attr/textAppearanceMedium"
+            android:id="@+id/wdEndTextView"
+            android:layout_marginStart="6dp"
+            android:textColor="#FFFFFF"
+            android:layout_marginLeft="6dp"
+            android:text="22:00" />
+
+    </LinearLayout>
+
+    <LinearLayout
+        android:orientation="horizontal"
+        android:layout_width="match_parent"
+        android:layout_height="48dp"
+        android:id="@+id/linearLayout7"
+        android:paddingLeft="32dp"
+        android:paddingStart="32dp"
+        android:layout_below="@+id/textView13"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentStart="true">
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="fill_parent"
+            android:textAppearance="?android:attr/textAppearanceMedium"
+            android:text="start at"
+            android:id="@+id/textView14"
+            android:textColor="#FFFFFF"
+            android:layout_marginTop="2dp"
+            android:gravity="center_vertical" />
+
+        <TextView
+            style="@style/Widget.AppCompat.Spinner.Underlined"
+            android:layout_width="wrap_content"
+            android:layout_height="fill_parent"
+            android:textAppearance="?android:attr/textAppearanceMedium"
+            android:id="@+id/weStartTextView"
+            android:textColor="#FFFFFF"
+            android:layout_marginLeft="6dp"
+            android:layout_marginStart="6dp"
+            android:text="08:00" />
+
+    </LinearLayout>
+
+    <LinearLayout
+        android:orientation="horizontal"
+        android:layout_width="match_parent"
+        android:layout_height="48dp"
+        android:paddingLeft="32dp"
+        android:paddingStart="32dp"
+        android:layout_below="@+id/linearLayout7"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentStart="true">
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="fill_parent"
+            android:textAppearance="?android:attr/textAppearanceMedium"
+            android:text="and finish at"
+            android:id="@+id/textView16"
+            android:textColor="#FFFFFF"
+            android:layout_marginTop="2dp"
+            android:gravity="center_vertical" />
+
+        <TextView
+            style="@style/Widget.AppCompat.Spinner.Underlined"
+            android:layout_width="wrap_content"
+            android:layout_height="fill_parent"
+            android:textAppearance="?android:attr/textAppearanceMedium"
+            android:id="@+id/weEndTextView"
+            android:textColor="#FFFFFF"
+            android:layout_marginLeft="6dp"
+            android:layout_marginStart="6dp"
+            android:text="22:00" />
+
+    </LinearLayout>
+
+</RelativeLayout>
